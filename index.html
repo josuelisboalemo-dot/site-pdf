@@ -9,7 +9,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(135deg, #141e30, #243b55);
     color: white;
     text-align: center;
     padding-top: 100px;
@@ -24,6 +24,14 @@ body {
     margin: auto;
 }
 
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
 button {
     padding: 15px 30px;
     font-size: 18px;
@@ -36,6 +44,7 @@ button {
 
 button:hover {
     transform: scale(1.1);
+    background: #00ffaa;
 }
 </style>
 </head>
@@ -43,11 +52,11 @@ button:hover {
 <body>
 
 <div class="container">
-    <h1>📄 Baixar Arquivo PDF</h1>
+    <h1>📄 Download do PDF</h1>
     <p>Clique no botão abaixo para baixar o arquivo.</p>
-    
-    <a href="arquivo.pdf" download>
-        <button>⬇️ Baixar PDF</button>
+
+    <a href="arquivo.pdf" download="arquivo.pdf">
+        <button>⬇️ Baixar Agora</button>
     </a>
 </div>
 
